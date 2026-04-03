@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaika - Premium Pakistani Cuisine | Fine Dining</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Lora:wght@400;500;600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="zaika_style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>ZAIKA</h1>
+                <span class="tagline">PREMIUM PAKISTANI CUISINE</span>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#team" class="nav-link">Chef's Team</a></li>
+                <li><a href="#awards" class="nav-link">Awards</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#booking" class="cta-nav">Reserve Table</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-tag">Welcome to</span>
+                <h1 class="hero-title">ZAIKA</h1>
+                <p class="hero-subtitle">Experience the centuries-old culinary traditions of Pakistan in an atmosphere of refined elegance</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary js-scroll-to" data-target="#booking">Reserve Now</button>
+                    <button class="btn btn-secondary js-scroll-to" data-target="#menu">View Menu</button>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-value">29+</span>
+                    <span class="stat-label">Years Excellence</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">75+</span>
+                    <span class="stat-label">Signature Dishes</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">15K+</span>
+                    <span class="stat-label">Loyal Patrons</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Experience Section -->
+    <section class="experience-intro">
+        <div class="container">
+            <div class="experience-grid">
+                <div class="exp-card" style="animation-delay: 0.1s">
+                    <div class="exp-icon">👨‍🍳</div>
+                    <h3>Master Chefs</h3>
+                    <p>Three generations of culinary expertise dedicated to perfecting traditional Pakistani recipes</p>
+                </div>
+                <div class="exp-card" style="animation-delay: 0.2s">
+                    <div class="exp-icon">🌶️</div>
+                    <h3>Premium Ingredients</h3>
+                    <p>Sourced directly from the finest markets of Karachi, Lahore, and Peshawar</p>
+                </div>
+                <div class="exp-card" style="animation-delay: 0.3s">
+                    <div class="exp-icon">🔥</div>
+                    <h3>Traditional Methods</h3>
+                    <p>Authentic tandoor ovens and traditional cooking techniques passed down through generations</p>
+                </div>
+                <div class="exp-card" style="animation-delay: 0.4s">
+                    <div class="exp-icon">✨</div>
+                    <h3>Fine Dining</h3>
+                    <p>Elegant ambiance with impeccable service creating an unforgettable dining experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://t3.ftcdn.net/jpg/02/65/16/98/360_F_265169821_CnQKJoI8Aifk4gNdJJPCRNOgCty2E4JH.jpg?auto=compress&cs=tinysrgb&w=800" alt="Traditional Pakistani Kitchen">
+                    <div class="image-badge">Est. 2015</div>
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">Our Heritage</span>
+                    <h2>A Legacy of Authentic Flavors</h2>
+                    <p>Zaika represents more than three decades of culinary excellence, rooted in the heart of Islamabad. Founded by Chef Muhammad Ali, our restaurant emerged from a profound passion for preserving and celebrating authentic Pakistani cuisine.</p>
+                    <p>Each dish we prepare tells a story—of bustling bazaars, family gatherings, and time-honored recipes that have been perfected over generations. We believe that fine dining should be an immersive journey through culture, tradition, and exceptional taste.</p>
+                    <div class="highlights">
+                        <div class="highlight-item">
+                            <h4>Heritage Recipes</h4>
+                            <p>Sourced from family archives dating back to the Mughal era</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4>Imported Equipment</h4>
+                            <p>Authentic tandoor ovens and traditional cooking vessels from Pakistan</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4>Expert Craftsmen</h4>
+                            <p>Specialized spice blenders and traditional cooking experts on staff</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Culinary Offerings</span>
+                <h2>Signature Menu</h2>
+                <p>Meticulously crafted dishes representing the pinnacle of Pakistani cuisine</p>
+            </div>
+
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="all">All Dishes</button>
+                <button class="menu-tab" data-category="biryani">Rice & Biryani</button>
+                <button class="menu-tab" data-category="karahi">Karahi & Curries</button>
+                <button class="menu-tab" data-category="tandoor">Tandoor Specialties</button>
+                <button class="menu-tab" data-category="appetizers">Appetizers</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Biryani -->
+                <div class="menu-card" data-category="biryani all">
+                    <div class="menu-card-image">
+                        <img src="https://nodashofgluten.com/wp-content/uploads/2025/02/Hyderabadi-Chicken-Biryani-Recipe-1-683x1024.png?auto=compress&cs=tinysrgb&w=600" alt="Chicken Biryani">
+                        <span class="menu-badge">Signature</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Chicken Biryani Royal</h3>
+                        <p>Fragrant basmati rice layered with succulent chicken, saffron, and rose petals</p>
+                        <div class="menu-footer">
+                            <span class="price">Rs. 1,299</span>
+                            <span class="cuisine-type">Serves 1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="biryani all">
+                    <div class="menu-card-image">
+                        <img src="https://www.chefkunalkapur.com/wp-content/uploads/2021/03/Gosht-Biryani-1300x868.jpeg?v=1625193165?auto=compress&cs=tinysrgb&w=600" alt="Mutton Biryani">
+                        <span class="menu-badge premium">Premium</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Hyderabadi Mutton Biryani</h3>
+                        <p>Slow-cooked premium mutton with aromatic spices, yogurt, and basmati rice</p>
+                        <div class="menu-footer">
+                            <span class="price">Rs. 1,499</span>
+                            <span class="cuisine-type">Serves 1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="biryani all">
+                    <div class="menu-card-image">
+                        <img src="https://biryanigarden.online/assets/backgrounds/4.webp?auto=compress&cs=tinysrgb&w=600" alt="Vegetable Biryani">
+                        <span class="menu-badge vegan">Vegetarian</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Garden Harvest Biryani</h3>
+                        <p>Mixed seasonal vegetables and paneer with saffron rice and aromatic spices</p>
+                        <div class="menu-footer">
+                            <span class="price">Rs. 999</span>
+                            <span class="cuisine-type">Serves 1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Karahi -->
+                <div class="menu-card" data-category="karahi all">
+                    <div class="menu-card-image">
+                        <img src="https://i.ytimg.com/vi/oQa1xBxC89g/sddefault.jpg?auto=compress&cs=tinysrgb&w=600" alt="Chicken Karahi">
+                        <span class="menu-badge">Signature</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Chicken Karahi Masala</h3>
+                        <p>Tender chicken in traditional wok with fresh tomatoes, green chilies, and ginger</p>
+                        <div class="menu-footer">
+                            <span class="price">Rs. 1,099</span>
+                            <span class="cuisine-type">Serves 2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="karahi all">
+                    <div class="menu-card-image">
+                        <img src="https://burmawalakitchen.com/wp-content/uploads/2024/11/Nihari-5.jpg?auto=compress&cs=tinysrgb&w=600" alt="Lamb Karahi">
+                        <span class="menu-badge premium">Premium</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Lamb Karahi Nihari</h3>
+                        <p>Tender lamb pieces in rich spiced tomato-based curry with authentic masala blend</p>
+                        <div class="menu-footer">
+                            <span class="price">Rs. 1,399</span>
+                            <span class="cuisine-type">Serves 2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="karahi all">
+                    <div class="menu-card-image">
+                        <img src="https://i1.wp.com/skinnyspatula.com/wp-content/uploads/2020/07/Paneer-Palak-Makhani-Step-By-Step5.jpg?ssl=1&resize=900%2C900?auto=compress&cs=tinysrgb&w=600" alt="Palak Sabzi">
+                        <span class="menu-badge vegan">Vegetarian</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Palak Paneer Makhan</h3>
+                        <p>Fresh spinach curry with homemade cottage cheese, cream, and aromatic spices</p>
+                        <div class="menu-footer">
+                            <span class="price">Rs. 899</span>
+                            <span class="cuisine-type">Serves 2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tandoor -->
+                <div class="menu-card" data-category="tandoor all">
+                    <div class="menu-card-image">
+                        <img src="https://i.ytimg.com/vi/CF8uV9u8P9U/maxresdefault.jpg?auto=compress&cs=tinysrgb&w=600" alt="Seekh Kebab">
+                        <span class="menu-badge">Popular</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Seekh Kebab Speciale</h3>
+                        <p>Grilled minced meat skewers with authentic spices and fresh herbs</p>
+                        <div class="menu-footer">
+                            <span class="price">Rs. 699</span>
+                            <span class="cuisine-type">2 Skewers</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="tandoor all">
+                    <div class="menu-card-image">
+                        <img src="https://laurenscravings.com/wp-content/uploads/2025/04/chicken-tikka-marinade-scaled.jpg?auto=compress&cs=tinysrgb&w=600" alt="Chicken Tikka">
+                        <span class="menu-badge premium">Premium</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Tandoori Chicken Tikka</h3>
+                        <p>Marinated in yogurt and spices, grilled to perfection in traditional tandoor</p>
+                        <div class="menu-footer">
+                            <span class="price">Rs. 1,199</span>
+                            <span class="cuisine-type">6 Pieces</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="tandoor all">
+                    <div class="menu-card-image">
+                        <img src="https://caputoflour.com/cdn/shop/articles/Naan-Web_9c91de92-b30a-4111-8ab5-dad457d06332_1024x1024.jpg?v=1770667982?auto=compress&cs=tinysrgb&w=600" alt="Naan">
+                        <span class="menu-badge vegan">Vegetarian</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Artisan Naan Selection</h3>
+                        <p>Fresh-baked from traditional tandoor: Plain, Butter, Garlic, or Peshwari</p>
+                        <div class="menu-footer">
+                            <span class="price">Rs. 299</span>
+                            <span class="cuisine-type">Per Naan</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Appetizers -->
+                <div class="menu-card" data-category="appetizers all">
+                    <div class="menu-card-image">
+                        <img src="https://img.freepik.com/premium-photo/samosa-trio-flavor-extravaganza-samosa-image-photography_1020697-107497.jpg?auto=compress&cs=tinysrgb&w=600" alt="Samosa">
+                        <span class="menu-badge vegan">Vegetarian</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Samosa Trio</h3>
+                        <p>Crispy pastry pockets with spiced potatoes, peas, and fresh herbs</p>
+                        <div class="menu-footer">
+                            <span class="price">Rs. 399</span>
+                            <span class="cuisine-type">3 Pieces</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="appetizers all">
+                    <div class="menu-card-image">
+                        <img src="https://images.services.kitchenstories.io/I1J1RunmQ7cK6OjgqkyO5GK1_6o=/3840x0/filters:quality(80)/images.kitchenstories.io/wagtailOriginalImages/R2386-photo-final-3.jpg?auto=compress&cs=tinysrgb&w=600" alt="Pakora">
+                        <span class="menu-badge vegan">Vegetarian</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Mixed Vegetable Pakora</h3>
+                        <p>Crispy battered vegetables served with tamarind and mint chutney</p>
+                        <div class="menu-footer">
+                            <span class="price">Rs. 449</span>
+                            <span class="cuisine-type">Serves 2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="appetizers all">
+                    <div class="menu-card-image">
+                        <img src="https://www.chefkunalkapur.com/wp-content/uploads/2023/04/DSC00031-1300x731.jpg?v=1681611438jpeg?auto=compress&cs=tinysrgb&w=600" alt="Shami Kebab">
+                        <span class="menu-badge">Popular</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Shami Kebab</h3>
+                        <p>Ground meat with lentils and spices, deep-fried to golden perfection</p>
+                        <div class="menu-footer">
+                            <span class="price">Rs. 549</span>
+                            <span class="cuisine-type">4 Pieces</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Visual Journey</span>
+                <h2>Our Gallery</h2>
+                <p>Experience the ambiance and artistry of Zaika</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-image="https://www.thetakeout.com/img/gallery/what-are-the-stations-in-a-traditional-kitchen-brigade/not-all-restaurants-can-accommodate-a-full-kitchen-brigade-1752530172.jpg.jpeg?auto=compress&cs=tinysrgb&w=800">
+                    <img src="https://www.thetakeout.com/img/gallery/what-are-the-stations-in-a-traditional-kitchen-brigade/not-all-restaurants-can-accommodate-a-full-kitchen-brigade-1752530172.jpg?auto=compress&cs=tinysrgb&w=400" alt="Restaurant Kitchen">
+                    <div class="gallery-overlay">
+                        <span>Traditional Kitchen</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="https://storage.kempinski.com/cdn-cgi/image/w=1920,f=auto,fit=scale-down,g=auto/ki-cms-prod/images/1/7/6/7/427671-1-eng-GB/5bc6617db3dc-SignatureDishes_NBO1_1920x1080px.jpg?auto=compress&cs=tinysrgb&w=800">
+                    <img src="https://storage.kempinski.com/cdn-cgi/image/w=1920,f=auto,fit=scale-down,g=auto/ki-cms-prod/images/1/7/6/7/427671-1-eng-GB/5bc6617db3dc-SignatureDishes_NBO1_1920x1080px.jpg?auto=compress&cs=tinysrgb&w=400" alt="Signature Dishes">
+                    <div class="gallery-overlay">
+                        <span>Signature Dishes</span>
+                    </div>
+                </div>
+              <div class="gallery-item" data-image="https://images.ctfassets.net/rric2f17v78a/6c2MXcdFKjejBoyuHhaD7k/8cf43465ed6155ea049a2027ba2edfe6/restaurant-ambiance.jpg">
+    
+    <img src="https://images.ctfassets.net/rric2f17v78a/6c2MXcdFKjejBoyuHhaD7k/8cf43465ed6155ea049a2027ba2edfe6/restaurant-ambiance.jpg" 
+         alt="Fine Dining" 
+         loading="lazy">
+
+    <div class="gallery-overlay">
+        <span>Fine Dining Ambiance</span>
+    </div>
+
+</div>
+                <div class="gallery-item" data-image="https://images.pexels.com/photos/8450623/pexels-photo-8450623.jpeg?auto=compress&cs=tinysrgb&w=800">
+                    <img src="https://images.pexels.com/photos/8450623/pexels-photo-8450623.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Plated Dishes">
+                    <div class="gallery-overlay">
+                        <span>Artfully Plated</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Modal -->
+        <div class="gallery-modal" id="galleryModal">
+            <button class="modal-close">&times;</button>
+            <img id="modalImage" src="" alt="">
+        </div>
+    </section>
+
+    <!-- Chef's Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Master Artisans</span>
+                <h2>Our Chef's Team</h2>
+                <p>Three generations of culinary excellence</p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://chefbiplab.com/wp-content/uploads/2025/07/Muhammad-Ali-e1751565118784.jpg?auto=compress&cs=tinysrgb&w=400" alt="Chef Muhammad Ali">
+                    </div>
+                    <div class="team-content">
+                        <h3>Chef Muhammad Ali</h3>
+                        <p class="team-title">Executive Chef & Founder</p>
+                        <p>With 35 years of culinary expertise, Chef Muhammad Ali founded Zaika to preserve authentic Pakistani cuisine. His signature dishes have earned recognition across the region.</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://www.arabnews.com/sites/default/files/styles/n_670_395/public/2023/02/03/3659831-1713118634.jpg?itok=zksN3QE-?auto=compress&cs=tinysrgb&w=400" alt="Chef Hassan">
+                    </div>
+                    <div class="team-content">
+                        <h3>Chef Hassan Ahmed</h3>
+                        <p class="team-title">Head Chef - Tandoor</p>
+                        <p>Specialized in traditional tandoor cooking, Hassan brings 25 years of expertise in crafting perfectly charred kebabs and naans using ancestral techniques.</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://gdb.voanews.com/8f92c95a-c7a4-4d67-bd8f-cbc696203ece_w1080_h608.jpg?auto=compress&cs=tinysrgb&w=400" alt="Chef Fatima">
+                    </div>
+                    <div class="team-content">
+                        <h3>Chef Fatima Khan</h3>
+                        <p class="team-title">Head Chef - Karahi & Biryani</p>
+                        <p>A master of traditional spice blending and slow-cooking methods, Fatima's karahis and biryanis are legendary for their depth of flavor and aromatic perfection.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards & Recognition -->
+    <section id="awards" class="awards">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Recognition</span>
+                <h2>Awards & Achievements</h2>
+                <p>Celebrated for excellence in authentic Pakistani cuisine</p>
+            </div>
+
+            <div class="awards-grid">
+                <div class="award-card">
+                    <div class="award-icon">🏆</div>
+                    <h3>Best Pakistani Restaurant</h3>
+                    <p>National Culinary Excellence Awards 2023</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon">⭐</div>
+                    <h3>5-Star Fine Dining</h3>
+                    <p>International Restaurant Guide 2023</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon">👨‍🍳</div>
+                    <h3>Chef's Choice Award</h3>
+                    <p>Asian Culinary Federation 2022</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon">🌟</div>
+                    <h3>Customer Favorite</h3>
+                    <p>TripAdvisor Travelers' Choice 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Guest Reviews</span>
+                <h2>What Our Patrons Say</h2>
+                <p>Authentic experiences from our valued guests</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"The most authentic Pakistani dining experience I've had outside Pakistan. Every dish transports you to the streets of Lahore. The service is impeccable and the ambiance is perfect for special occasions."</p>
+                    <div class="testimonial-author">
+                        <strong>Sarah Ahmed</strong>
+                        <span>Food Critic & Blogger</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"We've been regulars for three years now. The consistency in quality, the warmth of the staff, and the incredible flavors keep us coming back. This is more than a restaurant—it's a cultural experience."</p>
+                    <div class="testimonial-author">
+                        <strong>Muhammad Hassan</strong>
+                        <span>Regular Patron</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Outstanding in every way. The lamb karahi is a masterpiece, the tandoori chicken is perfection, and the biryani is the best I've ever had. This restaurant truly deserves all its accolades."</p>
+                    <div class="testimonial-author">
+                        <strong>Dr. Maria Khan</strong>
+                        <span>Medical Professional</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loyalty Program -->
+    <section class="loyalty">
+        <div class="container">
+            <div class="loyalty-content">
+                <div class="loyalty-text">
+                    <h2>Join Our Loyalty Program</h2>
+                    <p>Become part of the Zaika family and enjoy exclusive benefits, special discounts, and early access to new menu items.</p>
+                    <ul class="loyalty-benefits">
+                        <li>10% discount on every visit</li>
+                        <li>Exclusive preview of seasonal menus</li>
+                        <li>Birthday specials and surprise gifts</li>
+                        <li>VIP table reservations</li>
+                        <li>Special invitations to chef's table events</li>
+                    </ul>
+                    <button class="btn btn-primary">Join Now</button>
+                </div>
+                <div class="loyalty-card">
+                    <div class="card-design">
+                        <h3>ZAIKA REWARDS</h3>
+                        <p>Premium Membership</p>
+                        <div class="card-number">**** **** **** 2024</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-header">
+                        <span class="section-tag">Get In Touch</span>
+                        <h2>Visit Us</h2>
+                    </div>
+
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Street 2, Main Avenue<br>Hostel City, Islamabad<br>Pakistan</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div>
+                                <h4>Hours</h4>
+                                <p>Mon - Thu: 11:00 AM - 10:00 PM<br>
+                                   Fri - Sat: 11:00 AM - 11:00 PM<br>
+                                   Sunday: 12:00 PM - 9:00 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4>Contact</h4>
+                                <p>Phone: +92 332 5387740<br>
+                                   Email: reservations@zaika.com<br>
+                                   Website: www.ZaikaRes.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking-form-wrapper" id="booking">
+                    <h3>Make a Reservation</h3>
+                    <form class="booking-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="tel" placeholder="Phone Number" required>
+                        <div class="form-row">
+                            <input type="date" required>
+                            <input type="time" required>
+                        </div>
+                        <select required>
+                            <option value="">Number of Guests</option>
+                            <option value="1">1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5">5 People</option>
+                            <option value="6+">6+ People</option>
+                        </select>
+                        <textarea placeholder="Special Requests (Optional)" rows="3"></textarea>
+                        <button type="submit" class="btn btn-primary">Reserve Table</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ZAIKA</h3>
+                    <p>Premium Pakistani fine dining since 2015. Dedicated to preserving authentic culinary traditions while providing an unforgettable dining experience.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Dine In</a></li>
+                        <li><a href="#">Takeout</a></li>
+                        <li><a href="#">Catering</a></li>
+                        <li><a href="#">Private Events</a></li>
+                        <li><a href="#">Chef's Table</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for exclusive offers and menu updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 ZAIKA - Premium Pakistani Cuisine. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="zaika_script.js"></script>
+</body>
+</html>
