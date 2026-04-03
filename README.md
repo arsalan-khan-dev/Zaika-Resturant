@@ -1,33 +1,30 @@
 # 🍽️ Zaika Restaurant
 
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/arsalan-khan-dev/Zaika-Resturant/blob/main/LICENSE)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github)](https://github.com/arsalan-khan-dev/Zaika-Resturant)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-red?style=for-the-badge)](https://arsalan-khan-dev.github.io/Zaika-Resturant/)
-
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/arsalan-khan-dev/Zaika-Resturant/blob/main/LICENSE)  
+[![GitHub Profile](https://img.shields.io/badge/GitHub-Arsalan%20Khan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arsalan-khan-dev)  
+[![Repository](https://img.shields.io/badge/Repo-Zaika--Restaurant-ff69b4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arsalan-khan-dev/Zaika-Resturant)  
+[![Live Site](https://img.shields.io/badge/Live-View%20Website-00bfff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://arsalan-khan-dev.github.io/Zaika-Resturant/)
 ---
 
 ## 🌟 Project Overview
-**Zaika Restaurant** is a modern and responsive restaurant website designed to showcase menu items, gallery, team, testimonials, and more. The website provides a smooth user experience with attractive animations, interactive elements, and a professional design aesthetic.  
+**Zaika Restaurant** is a modern, responsive restaurant website showcasing menus, gallery, team, and testimonials. Designed to provide a smooth user experience with interactive elements and professional UI/UX design.  
 
-This project is perfect for learning **HTML, CSS, and JavaScript**, as well as for showcasing front-end skills on GitHub.
+Perfect for front-end learning and portfolio showcase using **HTML, CSS, and JavaScript**.
 
 ---
 
 ## 🎯 Features
-- Fully **responsive design** for mobile, tablet, and desktop.
-- Beautiful **Hero section** with animations.
-- Interactive **Menu tabs and cards**.
-- **Gallery with hover effects** and modal zoom.
-- **Team, Awards, and Testimonials** sections.
-- **Loyalty & Contact Forms** integrated with smooth UX.
-- **Navigation bar** with hover animations and CTA button.
-- **Clean, professional design** using color palette: Gold, Copper, Cream, Charcoal.
-- Easy to extend and customize for any restaurant or food business.
+- Fully **responsive** for mobile, tablet, and desktop.  
+- Interactive **Menu cards and tabs**.  
+- **Gallery section** with hover effects.  
+- **Team and Testimonials** sections.  
+- Smooth **navigation and animations**.  
+- Clean, professional design with attractive color palette.  
 
 ---
 
-## 🖥️ Live Demo
-Check out the live website here:  
+## 🖥️ Live Website
+Visit the live site:  
 [🌐 Zaika Restaurant Live](https://arsalan-khan-dev.github.io/Zaika-Resturant/)
 
 ---
